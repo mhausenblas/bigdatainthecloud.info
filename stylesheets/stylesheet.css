@@ -303,6 +303,7 @@ blockquote {
 ul li {
   list-style: disc inside;
   padding-left: 20px;
+  font-weight: 300;
 }
 
 ol li {
@@ -342,6 +343,34 @@ footer a:hover {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+
+.bdc-question {
+	margin: 0;
+}
+
+.bdc-question:before {
+    content: "Q";
+    font-size: 150%;
+    font-weight: 400;
+    color: #000;
+    margin: 0 20px 0 0;
+}
+
+.bdc-answer {
+
+}
+
+.bdc-answer:before {
+    content: "A";
+    font-size: 150%;
+    font-weight: 400;
+    color: #000;
+    margin: 0 20px 0 0;
+}
+
+
+
 
 /* #Media Queries
 ================================================== */
